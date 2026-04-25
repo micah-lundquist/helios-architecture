@@ -15,7 +15,7 @@ The context window is rebuilt fresh each turn from durable storage — messages,
 
 ## §1. What Helios is
 
-Helios is a self-improving memory library for conversational agents. It stores structured facts in SQLite, measures whether each fact actually influenced the model's response, classifies what kind of influence it had, and accumulates both signals into per-fact behavioral fingerprints that inform future injection decisions. Consumers wire Helios in as either an in-process Python library or a standalone HTTP server (see §2). The memory substrate is identical in both shapes.
+Helios is a self-improving memory library for agents. It stores structured facts in SQLite, measures whether each fact actually influenced the model's response, classifies what kind of influence it had, and accumulates both signals into per-fact behavioral fingerprints that inform future injection decisions. Consumers wire Helios in as either an in-process Python library or a standalone HTTP server (see §2). The memory substrate is identical in both shapes.
 
 The system's core problem is that storing facts is trivial but knowing which facts matter — and matter *how* — is not. A naive memory system retrieves by similarity and hopes for the best. Helios retrieves by similarity, injects the top candidates into the model's context, then measures what happened. Over time, each fact accumulates a behavioral profile: how often it changed the response, whether it shifted tone or contributed content, whether the model merely echoed it back without genuine engagement. That profile feeds back into retrieval scoring, creating a loop where facts that demonstrably matter surface more often and facts that don't gradually fade.
 
