@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 480" font-family="-apple-system, BlinkMacSystemFont, sans-serif">
+<rect width="1100" height="480" fill="white"/>
+<text x="550.0" y="32" text-anchor="middle" font-size="15" font-weight="600" fill="#222">Chaperone fire-rate convergence  ·  273 traces  ·  2026-04-17 → 2026-04-25</text>
+<text x="295.0" y="56" text-anchor="middle" font-size="13" font-weight="600" fill="#222">Convergence: fire rate decays as facts mature</text><line x1="60" y1="390" x2="530.0" y2="390" stroke="#444" stroke-width="1"/><line x1="60" y1="70" x2="60" y2="390" stroke="#444" stroke-width="1"/><line x1="56" y1="390.0" x2="530.0" y2="390.0" stroke="#eee" stroke-width="0.8"/><text x="52" y="394.0" text-anchor="end" font-size="10" fill="#666">0%</text><line x1="56" y1="342.69565217391306" x2="530.0" y2="342.69565217391306" stroke="#eee" stroke-width="0.8"/><text x="52" y="346.69565217391306" text-anchor="end" font-size="10" fill="#666">10%</text><line x1="56" y1="295.39130434782606" x2="530.0" y2="295.39130434782606" stroke="#eee" stroke-width="0.8"/><text x="52" y="299.39130434782606" text-anchor="end" font-size="10" fill="#666">20%</text><line x1="56" y1="248.0869565217391" x2="530.0" y2="248.0869565217391" stroke="#eee" stroke-width="0.8"/><text x="52" y="252.0869565217391" text-anchor="end" font-size="10" fill="#666">30%</text><line x1="56" y1="200.78260869565216" x2="530.0" y2="200.78260869565216" stroke="#eee" stroke-width="0.8"/><text x="52" y="204.78260869565216" text-anchor="end" font-size="10" fill="#666">40%</text><line x1="56" y1="153.4782608695652" x2="530.0" y2="153.4782608695652" stroke="#eee" stroke-width="0.8"/><text x="52" y="157.4782608695652" text-anchor="end" font-size="10" fill="#666">50%</text><text transform="translate(18, 230.0) rotate(-90)" text-anchor="middle" font-size="11" fill="#222">Fire rate (%)</text>
+<line x1="60" y1="197.47130434782608" x2="530.0" y2="197.47130434782608" stroke="#c44" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+<text x="66" y="193.47130434782608" font-size="9" fill="#c44">1st-eval baseline (40.7%)</text>
+<rect x="74.88333333333333" y="199.01185770750985" width="48.56666666666666" height="190.98814229249015" fill="#4a7fbf"/>
+<text x="99.16666666666666" y="193.01185770750985" text-anchor="middle" font-size="10" fill="#222">40.4%</text>
+<text x="99.16666666666666" y="406" text-anchor="middle" font-size="11" fill="#222">1st</text>
+<text x="99.16666666666666" y="420" text-anchor="middle" font-size="9" fill="#888">n=374</text>
+<rect x="153.21666666666667" y="278.14735489398157" width="48.56666666666666" height="111.85264510601844" fill="#4a7fbf"/>
+<text x="177.5" y="272.14735489398157" text-anchor="middle" font-size="10" fill="#222">23.6%</text>
+<text x="177.5" y="406" text-anchor="middle" font-size="11" fill="#222">2nd</text>
+<text x="177.5" y="420" text-anchor="middle" font-size="9" fill="#888">n=203</text>
+<rect x="231.54999999999998" y="284.0382608695652" width="48.56666666666666" height="105.9617391304348" fill="#4a7fbf"/>
+<text x="255.83333333333331" y="278.0382608695652" text-anchor="middle" font-size="10" fill="#222">22.4%</text>
+<text x="255.83333333333331" y="406" text-anchor="middle" font-size="11" fill="#222">3rd</text>
+<text x="255.83333333333331" y="420" text-anchor="middle" font-size="9" fill="#888">n=125</text>
+<rect x="309.8833333333333" y="269.5889328063241" width="48.56666666666666" height="120.41106719367589" fill="#4a7fbf"/>
+<text x="334.16666666666663" y="263.5889328063241" text-anchor="middle" font-size="10" fill="#222">25.5%</text>
+<text x="334.16666666666663" y="406" text-anchor="middle" font-size="11" fill="#222">4-5th</text>
+<text x="334.16666666666663" y="420" text-anchor="middle" font-size="9" fill="#888">n=110</text>
+<rect x="388.2166666666667" y="312.76841171251107" width="48.56666666666666" height="77.23158828748892" fill="#4a7fbf"/>
+<text x="412.5" y="306.76841171251107" text-anchor="middle" font-size="10" fill="#222">16.3%</text>
+<text x="412.5" y="406" text-anchor="middle" font-size="11" fill="#222">6-10th</text>
+<text x="412.5" y="420" text-anchor="middle" font-size="9" fill="#888">n=49</text>
+<rect x="466.54999999999995" y="153.4782608695652" width="48.56666666666666" height="236.5217391304348" fill="#4a7fbf"/>
+<text x="490.8333333333333" y="147.4782608695652" text-anchor="middle" font-size="10" fill="#222">50.0%</text>
+<text x="490.8333333333333" y="406" text-anchor="middle" font-size="11" fill="#222">11+</text>
+<text x="490.8333333333333" y="420" text-anchor="middle" font-size="9" fill="#888">n=10</text>
+<text x="295.0" y="442" text-anchor="middle" font-size="11" fill="#222">Prior eval count for this fact_id</text>
+<text x="825.0" y="56" text-anchor="middle" font-size="13" font-weight="600" fill="#222">Per-class fire rate: early vs. late half</text><line x1="590.0" y1="390" x2="1060.0" y2="390" stroke="#444" stroke-width="1"/><line x1="590.0" y1="70" x2="590.0" y2="390" stroke="#444" stroke-width="1"/><line x1="586.0" y1="390.0" x2="1060.0" y2="390.0" stroke="#eee" stroke-width="0.8"/><text x="582.0" y="394.0" text-anchor="end" font-size="10" fill="#666">0%</text><line x1="586.0" y1="351.296442687747" x2="1060.0" y2="351.296442687747" stroke="#eee" stroke-width="0.8"/><text x="582.0" y="355.296442687747" text-anchor="end" font-size="10" fill="#666">10%</text><line x1="586.0" y1="312.59288537549406" x2="1060.0" y2="312.59288537549406" stroke="#eee" stroke-width="0.8"/><text x="582.0" y="316.59288537549406" text-anchor="end" font-size="10" fill="#666">20%</text><line x1="586.0" y1="273.8893280632411" x2="1060.0" y2="273.8893280632411" stroke="#eee" stroke-width="0.8"/><text x="582.0" y="277.8893280632411" text-anchor="end" font-size="10" fill="#666">30%</text><line x1="586.0" y1="235.18577075098813" x2="1060.0" y2="235.18577075098813" stroke="#eee" stroke-width="0.8"/><text x="582.0" y="239.18577075098813" text-anchor="end" font-size="10" fill="#666">40%</text><line x1="586.0" y1="196.48221343873513" x2="1060.0" y2="196.48221343873513" stroke="#eee" stroke-width="0.8"/><text x="582.0" y="200.48221343873513" text-anchor="end" font-size="10" fill="#666">50%</text><line x1="586.0" y1="157.77865612648222" x2="1060.0" y2="157.77865612648222" stroke="#eee" stroke-width="0.8"/><text x="582.0" y="161.77865612648222" text-anchor="end" font-size="10" fill="#666">60%</text><line x1="586.0" y1="119.07509881422925" x2="1060.0" y2="119.07509881422925" stroke="#eee" stroke-width="0.8"/><text x="582.0" y="123.07509881422925" text-anchor="end" font-size="10" fill="#666">70%</text><text transform="translate(548.0, 230.0) rotate(-90)" text-anchor="middle" font-size="11" fill="#222">Fire rate (%)</text>
+<rect x="609.15" y="268.57707509881425" width="37.6" height="121.42292490118577" fill="#7eb37e"/>
+<text x="627.95" y="263.57707509881425" text-anchor="middle" font-size="9" fill="#222">31.4%</text>
+<rect x="650.75" y="321.88173913043477" width="37.6" height="68.11826086956522" fill="#bf6f4a"/>
+<text x="669.55" y="316.88173913043477" text-anchor="middle" font-size="9" fill="#222">17.6%</text>
+<text x="648.75" y="406" text-anchor="middle" font-size="11" fill="#222">relational</text>
+<rect x="726.65" y="153.4782608695652" width="37.6" height="236.5217391304348" fill="#7eb37e"/>
+<text x="745.45" y="148.4782608695652" text-anchor="middle" font-size="9" fill="#222">61.1%</text>
+<rect x="768.25" y="239.48616600790515" width="37.6" height="150.51383399209485" fill="#bf6f4a"/>
+<text x="787.05" y="234.48616600790515" text-anchor="middle" font-size="9" fill="#222">38.9%</text>
+<text x="766.25" y="406" text-anchor="middle" font-size="11" fill="#222">informational</text>
+<rect x="844.15" y="247.40794674433116" width="37.6" height="142.59205325566884" fill="#7eb37e"/>
+<text x="862.95" y="242.40794674433116" text-anchor="middle" font-size="9" fill="#222">36.8%</text>
+<rect x="885.75" y="320.8865047995483" width="37.6" height="69.11349520045174" fill="#bf6f4a"/>
+<text x="904.55" y="315.8865047995483" text-anchor="middle" font-size="9" fill="#222">17.9%</text>
+<text x="883.75" y="406" text-anchor="middle" font-size="11" fill="#222">echo</text>
+<rect x="961.65" y="296.5776202807687" width="37.6" height="93.4223797192313" fill="#7eb37e"/>
+<text x="980.45" y="291.5776202807687" text-anchor="middle" font-size="9" fill="#222">24.1%</text>
+<rect x="1003.25" y="270.07348438456825" width="37.6" height="119.92651561543174" fill="#bf6f4a"/>
+<text x="1022.05" y="265.07348438456825" text-anchor="middle" font-size="9" fill="#222">31.0%</text>
+<text x="1001.25" y="406" text-anchor="middle" font-size="11" fill="#222">noise</text>
+<text x="825.0" y="442" text-anchor="middle" font-size="11" fill="#222">Turn class</text>
+<rect x="880.0" y="82" width="14" height="10" fill="#7eb37e"/>
+<text x="900.0" y="91" font-size="10" fill="#222">Early half (136 traces)</text>
+<rect x="880.0" y="100" width="14" height="10" fill="#bf6f4a"/>
+<text x="900.0" y="109" font-size="10" fill="#222">Late half (137 traces)</text>
+<text x="550.0" y="460" text-anchor="middle" font-size="10" fill="#666">Aggregate fire rate dropped 38.7% → 22.1% over the window. ~11pp from per-class rate decay (population maturation), ~5.5pp from turn-mix shift.</text>
+</svg>
